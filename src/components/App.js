@@ -20,7 +20,7 @@ class App extends Component {
             this.state.flag ? <p id = "para" > {this.state.data} </p> : null
         }
         
-        <button onClick = {()=>this.setData()} > Click Me </button>
+        <button id="click" onClick = {()=>this.setData()} > Click Me </button>
     		</div>
     	);
     }
