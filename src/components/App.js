@@ -1,6 +1,7 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
 
+
 class App extends Component {
     constructor() {
         super();
@@ -17,7 +18,7 @@ class App extends Component {
     		<div id="main">
         { /* Do not remove this main div!! */ }
         {
-            this.state.flag ? <p id = "para" > {this.state.data} </p> : null
+            this.state.flag ? <p id = "para" >{this.state.data}</p> : null
         }
         
         <button id="click" onClick = {()=>this.setData()} > Click Me </button>
